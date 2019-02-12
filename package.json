@@ -1,0 +1,21 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "First attempt at Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "Sean O'Brien <sean@ducttape.it>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
